@@ -1,0 +1,143 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\FA506L\Desktop\ºìÍâ¶æ»ú3\ºìÍâ¶æ»ú.uvproj
+Project File Date:  07/16/2022
+
+<h2>Output:</h2>
+compiling Ò£¿ØÆ÷¿ØÖÆÂí´ï.c...
+Ò£¿ØÆ÷¿ØÖÆÂí´ï.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDWRITEDATA?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCDINIT?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?Ò£¿ØÆ÷¿Ø_Æ_í´ï
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD1602_CLEAR?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD1602_SHOW_STRING1?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_10US?PUBLIC
+Program Size: data=117.0 xdata=0 code=2505
+creating hex file from "ºìÍâ¶æ»ú3"...
+"ºìÍâ¶æ»ú3" - 0 Error(s), 6 Warning(s).
+compiling Ò£¿ØÆ÷¿ØÖÆÂí´ï.c...
+Ò£¿ØÆ÷¿ØÖÆÂí´ï.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDWRITEDATA?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCDINIT?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?Ò£¿ØÆ÷¿Ø_Æ_í´ï
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD1602_CLEAR?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD1602_SHOW_STRING1?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_10US?PUBLIC
+Program Size: data=117.0 xdata=0 code=2505
+creating hex file from "ºìÍâ¶æ»ú3"...
+"ºìÍâ¶æ»ú3" - 0 Error(s), 6 Warning(s).
+compiling Ò£¿ØÆ÷¿ØÖÆÂí´ï.c...
+Ò£¿ØÆ÷¿ØÖÆÂí´ï.C(196): error C141: syntax error near '||'
+Ò£¿ØÆ÷¿ØÖÆÂí´ï.C(196): error C141: syntax error near 'mm'
+Ò£¿ØÆ÷¿ØÖÆÂí´ï.C(295): error C202: 'i': undefined identifier
+Ò£¿ØÆ÷¿ØÖÆÂí´ï.C(297): error C202: 'i': undefined identifier
+Ò£¿ØÆ÷¿ØÖÆÂí´ï.C(298): error C202: 'i': undefined identifier
+Ò£¿ØÆ÷¿ØÖÆÂí´ï.C(301): error C202: 'i': undefined identifier
+Ò£¿ØÆ÷¿ØÖÆÂí´ï.c - 6 Error(s), 0 Warning(s).
+compiling Ò£¿ØÆ÷¿ØÖÆÂí´ï.c...
+Ò£¿ØÆ÷¿ØÖÆÂí´ï.C(295): error C202: 'i': undefined identifier
+Ò£¿ØÆ÷¿ØÖÆÂí´ï.C(297): error C202: 'i': undefined identifier
+Ò£¿ØÆ÷¿ØÖÆÂí´ï.C(298): error C202: 'i': undefined identifier
+Ò£¿ØÆ÷¿ØÖÆÂí´ï.C(301): error C202: 'i': undefined identifier
+Ò£¿ØÆ÷¿ØÖÆÂí´ï.c - 4 Error(s), 0 Warning(s).
+compiling Ò£¿ØÆ÷¿ØÖÆÂí´ï.c...
+Ò£¿ØÆ÷¿ØÖÆÂí´ï.C(295): error C202: 'ii': undefined identifier
+Ò£¿ØÆ÷¿ØÖÆÂí´ï.C(297): error C202: 'ii': undefined identifier
+Ò£¿ØÆ÷¿ØÖÆÂí´ï.C(298): error C202: 'i': undefined identifier
+Ò£¿ØÆ÷¿ØÖÆÂí´ï.C(301): error C202: 'i': undefined identifier
+Ò£¿ØÆ÷¿ØÖÆÂí´ï.c - 4 Error(s), 0 Warning(s).
+compiling Ò£¿ØÆ÷¿ØÖÆÂí´ï.c...
+Ò£¿ØÆ÷¿ØÖÆÂí´ï.C(295): error C202: 'ii': undefined identifier
+Ò£¿ØÆ÷¿ØÖÆÂí´ï.C(297): error C202: 'ii': undefined identifier
+Ò£¿ØÆ÷¿ØÖÆÂí´ï.C(298): error C202: 'ii': undefined identifier
+Ò£¿ØÆ÷¿ØÖÆÂí´ï.C(301): error C202: 'ii': undefined identifier
+Ò£¿ØÆ÷¿ØÖÆÂí´ï.c - 4 Error(s), 0 Warning(s).
+compiling Ò£¿ØÆ÷¿ØÖÆÂí´ï.c...
+Ò£¿ØÆ÷¿ØÖÆÂí´ï.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling iic.c...
+compiling 24c02.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDWRITEDATA?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCDINIT?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?Ò£¿ØÆ÷¿Ø_Æ_í´ï
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD1602_CLEAR?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD1602_SHOW_STRING1?LCD1602
+Program Size: data=120.0 xdata=0 code=2934
+creating hex file from "ºìÍâ¶æ»ú3"...
+"ºìÍâ¶æ»ú3" - 0 Error(s), 5 Warning(s).
+compiling Ò£¿ØÆ÷¿ØÖÆÂí´ï.c...
+Ò£¿ØÆ÷¿ØÖÆÂí´ï.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDWRITEDATA?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCDINIT?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?Ò£¿ØÆ÷¿Ø_Æ_í´ï
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD1602_CLEAR?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD1602_SHOW_STRING1?LCD1602
+Program Size: data=120.0 xdata=0 code=2934
+creating hex file from "ºìÍâ¶æ»ú3"...
+"ºìÍâ¶æ»ú3" - 0 Error(s), 5 Warning(s).
+compiling Ò£¿ØÆ÷¿ØÖÆÂí´ï.c...
+Ò£¿ØÆ÷¿ØÖÆÂí´ï.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDWRITEDATA?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCDINIT?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?Ò£¿ØÆ÷¿Ø_Æ_í´ï
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD1602_CLEAR?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD1602_SHOW_STRING1?LCD1602
+Program Size: data=117.0 xdata=0 code=2895
+creating hex file from "ºìÍâ¶æ»ú3"...
+"ºìÍâ¶æ»ú3" - 0 Error(s), 5 Warning(s).
+compiling Ò£¿ØÆ÷¿ØÖÆÂí´ï.c...
+Ò£¿ØÆ÷¿ØÖÆÂí´ï.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDWRITEDATA?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCDINIT?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?Ò£¿ØÆ÷¿Ø_Æ_í´ï
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD1602_CLEAR?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD1602_SHOW_STRING1?LCD1602
+Program Size: data=117.0 xdata=0 code=2895
+creating hex file from "ºìÍâ¶æ»ú3"...
+"ºìÍâ¶æ»ú3" - 0 Error(s), 5 Warning(s).

@@ -1,0 +1,5 @@
+"STARTUP.obj",
+"lcd.obj",
+"遥控器控制马达.obj" 
+TO "红外舵机" 
+RAMSIZE(256) 

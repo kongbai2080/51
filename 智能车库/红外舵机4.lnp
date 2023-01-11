@@ -1,0 +1,10 @@
+"STARTUP.obj",
+"lcd.obj",
+"遥控器控制马达.obj",
+"lcd1602.obj",
+"public.obj",
+"矩阵按键.obj",
+"iic.obj",
+"24c02.obj" 
+TO "红外舵机4" 
+RAMSIZE(256) 

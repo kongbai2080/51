@@ -1,0 +1,122 @@
+C51 COMPILER V9.01   ¾ØÕ__´¼ü                                                              07/15/2022 20:47:04 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE ¾ØÕ__´¼ü
+OBJECT MODULE PLACED IN ¾ØÕó°´¼ü.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE ¾ØÕó°´¼ü.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          /*
+   2          ¾ØÕó°´¼ü¿ÉÖ±½ÓÒÆÖ²Ê¹ÓÃÄ£¿é£¬ÊäÈëÒ»¸öÕûÐÍ±äÁ¿µØÖ·£¬Êä³ö°´¼üËù´ú±íµÄÖµ
+   3          */
+   4          
+   5          
+   6          /* ÊµÏÖÁ½¸öÊýµÄÔËËã£¬Ã¿¸öÊýµÄÎ»ÊýÖÁÉÙ¿ÉÒÔ°ËÎ»  */
+   7          #include<reg52.h>
+   8          typedef unsigned int u16;       //ï¿½ï¿½ÏµÍ³Ä¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í½ï¿½ï¿½ï¿½ï¿½Ø¶ï¿½ï¿½ï¿½
+   9          typedef unsigned char u8;
+  10          u16 key;
+  11          
+  12          void delay1(u16 i)
+  13          {
+  14   1              while(i--);
+  15   1      }
+  16          
+  17          
+  18          void keyscan(u8 *p,u8 *q)
+  19          {
+  20   1              P1=0xfe;   //ÁîµÚÒ»ÐÐÎª0£¬È»ºóÅÐ¶ÏÊÇÄÄÒ»ÁÐ°´ÏÂ
+  21   1              if(P1!=0xfe)
+  22   1              {
+  23   2                      delay1(1000);
+  24   2                      if(P1!=0xfe)
+  25   2                      {
+  26   3                              key=P1&0xf0;
+  27   3                              switch(key)
+  28   3                              {
+  29   4                                      case 0xe0: *p=0;break;    //1
+  30   4                                      case 0xd0: *p=1;break;    //2
+  31   4                                      case 0xb0: *p=2;break;    //3
+  32   4                                      case 0x70: *p=3;break;    //¼Ó
+  33   4                              }
+  34   3                      }
+  35   2                      while(P1!=0xfe);
+  36   2      
+  37   2              }
+  38   1      
+  39   1      
+  40   1              P1=0xfd;                                //ÁîµÚ¶þÐÐÎª0£¬ÅÐ¶ÏÊÇÄÄÒ»ÁÐ°´ÏÂ
+  41   1              if(P1!=0xfd)
+  42   1              {
+  43   2                      delay1(1000);
+  44   2                      if(P1!=0xfd)
+  45   2                      {
+  46   3                              key=P1&0xf0;
+  47   3                              switch(key)
+  48   3                              {
+  49   4                                      case 0xe0: *p=4;break;    //4
+  50   4                                      case 0xd0: *p=5;break;    //5
+  51   4                                      case 0xb0: *p=6;break;    //6
+  52   4                                      case 0x70: *p=7;break;    //¼õ¡ª
+  53   4                              }       
+  54   3                      }
+  55   2                      while(P1!=0xfd);
+C51 COMPILER V9.01   ¾ØÕ__´¼ü                                                              07/15/2022 20:47:04 PAGE 2   
+
+  56   2                      
+  57   2              }
+  58   1      
+  59   1      
+  60   1              P1=0xfb;                 //ÁîµÚÈýÐÐÎª0£¬ÅÐ¶ÏÄÄÒ»ÁÐ°´ÏÂ
+  61   1              if(P1!=0xfb)
+  62   1              {
+  63   2                      delay1(1000);
+  64   2                      if(P1!=0xfb)
+  65   2                      {
+  66   3                              key=P1&0xf0;
+  67   3                              switch(key)
+  68   3                              {
+  69   4                                      case 0xe0: *p=8;break;    //7
+  70   4                                      case 0xd0: *p=9;break;    //8
+  71   4                                      case 0xb0: *p=10;break;  //9
+  72   4                                      case 0x70: *p=11;break;  //³Ë*
+  73   4                              }       
+  74   3                      }
+  75   2                      while(P1!=0xfb);
+  76   2                      
+  77   2              }
+  78   1      
+  79   1      
+  80   1              P1=0xf7;                 //ÁîµÚËÄÐÐÎª0£¬ÅÐ¶ÏÄÄÒ»ÁÐ°´ÏÂ
+  81   1              if(P1!=0xf7)
+  82   1              {
+  83   2                      delay1(1000);
+  84   2                      if(P1!=0xf7)
+  85   2                      {
+  86   3                              key=P1&0xf0;
+  87   3                              switch(key)
+  88   3                              {
+  89   4                                      case 0xe0: *q=3;break;  //0
+  90   4                                      case 0xd0: *q=2;break;  //Çå³ýrst
+  91   4                                      case 0xb0: *q=1;break;  //µÈºÅ=
+  92   4                                      case 0x70: *q=0;break;  //³ý/
+  93   4                              }       
+  94   3                      }
+  95   2                      while(P1!=0xf7);
+  96   2              }
+  97   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    400    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      2       6
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

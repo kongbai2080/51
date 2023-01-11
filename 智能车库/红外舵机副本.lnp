@@ -1,0 +1,8 @@
+"STARTUP.obj",
+"lcd.obj",
+"遥控器控制马达.obj",
+"lcd1602.obj",
+"public.obj",
+"矩阵按键.obj" 
+TO "红外舵机副本" 
+RAMSIZE(256) 

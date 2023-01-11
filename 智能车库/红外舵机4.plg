@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\FA506L\Desktop\ºìÍâ¶æ»ú4\ºìÍâ¶æ»ú.uvproj
+Project File Date:  07/22/2022
+
+<h2>Output:</h2>
+compiling iic.c...
+iic.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling Ò£¿ØÆ÷¿ØÖÆÂí´ï.c...
+compiling 24c02.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCDWRITEDATA?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCDINIT?LCD
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?Ò£¿ØÆ÷¿Ø_Æ_í´ï
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD1602_CLEAR?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD1602_SHOW_STRING1?LCD1602
+Program Size: data=117.0 xdata=0 code=2874
+creating hex file from "ºìÍâ¶æ»ú4"...
+"ºìÍâ¶æ»ú4" - 0 Error(s), 5 Warning(s).
